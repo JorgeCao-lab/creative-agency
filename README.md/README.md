@@ -1,6 +1,6 @@
 # Creative Agency - Landing Page
 
-![Vista Previa del Proyecto](./public/IMG/Previwe.png)
+![Vista Previa del Proyecto](./public/IMG/Preview.png)
 
 Este proyecto es una landing page moderna para una agencia creativa, desarrollada como parte de mi formación en **Conckerblock**. El diseño destaca por una estructura de Grid compleja y efectos de superposición (overlay) realizados puramente con CSS.
 
