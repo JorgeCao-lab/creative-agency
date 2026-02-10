@@ -1,0 +1,243 @@
+
+*, *::before, *::after{
+   box-sizing: border-box;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #515DEF;
+  overflow-x: hidden;
+}
+
+
+.columna-der{
+  grid-row: 1/2;
+}
+
+.seccion-aside{
+  grid-column: 1/2;
+  grid-row: 3;
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.pagina {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  width:100%;
+  height:auto;
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
+
+.columna-izq {
+  grid-row: 1/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom:0px;
+  
+}
+
+.hero{
+  padding-top: 30px;
+  padding-left: 160px;
+  display: flex;
+  justify-content:start;
+  background-color: transparent;
+  align-items:center;
+}
+
+.figure_img{
+  object-fit:contain;
+  padding: 0;
+  margin: 0;
+  margin-right: 148px;
+  font-family: 'Poppins' , sans-serif;
+  font-weight:900;
+  font-size: 36px;
+}
+
+figcaption{
+  display: none;
+}
+
+.nav_hero{
+  max-width: 512px;
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+
+.nav_hero ul{
+  display:flex;
+  gap: 56px;
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_hero a{
+  text-decoration: none;
+  margin-top: 46px;
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 400;
+  color: #FBFBFB;
+}
+
+.columna-der{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-right: 160px;
+  padding-top: 30px;
+}
+
+.btn_nav-contacto{
+  display: flex;
+  padding: 20px;
+  text-decoration: none;
+  background-color: #515DEF;
+  color:#FBFBFB;
+  font-family: 'poppins' , sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.section_hero{
+  margin:0px;
+  padding-left: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+.p_hi{
+  margin: 0;
+  box-sizing: border-box;
+  min-width: 70%;
+  height: 40px;
+  font-family:'Poppins' , sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color:#FBFBFB;
+  padding-bottom: 16px;
+  padding-top: 30px;
+}
+
+.p_we_are{
+  padding-top: 30px;
+  font-family:'Poppins' , sans-serif;
+  font-size:clamp(40px, 5vw ,64px);
+  max-width: 864px;
+  height: auto;
+  font-weight:700;
+  line-height: 80px;
+  color: #FBFBFB;
+  margin: 0;
+}
+
+.p_provides{
+  display:flex;
+  min-width:70%;
+  font-family:'Poppins' ,sans-serif;
+  font-weight:400px;
+  font-size:24px;
+  line-height:40px;
+  color:#FBFBFB;
+  padding-right:168px;
+  padding-bottom:54px;
+  padding-top:0;
+  margin: 0;
+}
+
+
+.btn_a_let{
+  margin:0;
+  display: inline-flex;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom:20px;
+  padding-right:77px;
+  color: #333333;
+  background-color: #FBFBFB;
+  font-family:'poppins' , sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  align-items:center;
+  
+}
+.btn_a_let::after{
+  content:url("../IMG/reshot-icon-right-arrow-UCA8NGYZDJ.svg");
+  display:block;
+  width: 45px;
+  height: 45px;
+  margin-left: 16px;
+  margin-right: 8px;
+}
+
+.seccion-aside{
+  display: flex;
+  overflow: visible;
+}
+
+.categories{
+  display:flex;
+  background-color: #FBFBFB;
+  width:calc(100% + 320px);
+  margin-right: -320px; /* Crea el efecto de superposición sobre la imagen derecha */
+  justify-content:space-around;
+  padding-top:10px;
+  justify-content: space-around;
+  z-index: 20;
+}
+
+.art-card{
+  display: flex;
+  max-width: 300px;
+  max-height:auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.art-img{
+  margin-top: 60px;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}
+
+.categories h3{
+  margin-bottom: 8px;
+  font-family:'Poppins' , sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.categories p{
+  margin: 0;
+  font-family: 'Poppins' ,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.columna-der {
+  grid-row: 1/4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-right: 160px;
+  padding-top: 30px;
+  background-image: url(IMG/Mask_Group@2x.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
