@@ -2,7 +2,7 @@
 
 Bienvenido al repositorio de **Creative Agency**, una landing page diseñada para agencias de marketing y diseño que buscan destacar en el mundo digital.
 
-![Vista previa de Creative Agency](./img/preview.png)
+![Vista previa de Creative Agency](public/IMG/Preview.png)
 
 ## 📌 Sobre el Proyecto
 Este proyecto es una muestra de maquetación profesional, enfocada en la velocidad de carga y un diseño visual impactante (Visual Hierarchy).
