@@ -2,6 +2,11 @@
 
 Este proyecto es una landing page moderna para una agencia creativa, desarrollada como parte de mi formación en **Conckerblock**. El diseño destaca por una estructura de Grid compleja y efectos de superposición (overlay) realizados puramente con CSS.
 
+## 📸 Preview
+
+[![Ver demo en vivo](public/img/Preview.png)](https://creative-agency-ashen.vercel.app)
+
+
 ## 🚀 Tecnologías Utilizadas
 
 * **HTML5:** Estructura semántica avanzada.
